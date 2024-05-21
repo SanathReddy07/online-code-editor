@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+select, textarea, button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 300px;
+    resize: none;
+    padding: 10px;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+pre {
+    text-align: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    height: 150px;
+    overflow-y: scroll;
+}
