@@ -1,0 +1,22 @@
+//Initialize the Project
+//Create a new directory and initialize a Node.js project:
+mkdir online-code-editor
+cd online-code-editor
+npm init -y
+//Install required dependencies:
+npm install express body-parser axios child_process cors
+//Project Directory Structure:
+online-code-editor/
+├── server/
+│   ├── routes/
+│   │   └── execute.js
+│   ├── server.js
+│   └── utils/
+│       └── executor.js
+├── public/
+│   ├── index.html
+│   ├── styles.css
+│   └── main.js
+├── .env
+├── package.json
+
